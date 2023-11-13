@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ACEDFF;
+}
+.heading{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.calculator{
+  height: 70vh;
+  width: 23%;
+  background-color: black;
+}
+.screen{
+  width: full;
+  height: 20%;
+}
+input{
+  width: 100%;
+  height: 100%;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.btns{
+height: 80%;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+/* align-items:center; */
+}
+.row{
+  display: flex;
+  justify-content: space-evenly;
+}
+button{
+  height: 3.5rem;
+  width: 3.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  /* margin: .8rem; */
+  font-size: larger;
+  background-color: rgb(98, 98, 98);
+  color:whitesmoke;
+  border: none;
+  transition: 150ms all;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+button:hover{
+  transform: scale(1.09);
+}
+button:active{
+  background-color:white;
+  column-rule: black;
+  transition: all 100ms;
+}
+
+.right{
+background-color: #24a0ed;
+font-size: x-large;
+}
